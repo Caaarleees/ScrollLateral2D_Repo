@@ -1,31 +1,37 @@
 fileFormatVersion: 2
-guid: 5e0fe38d94ef0bf4daafcb3fcb48da11
+guid: 8675a09dbaeb1fb4c88bbf5209c12650
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3641206842415056288
-    second: Golem_1_idle_0
+      213: 5175484822342644775
+    second: Golem_1_walk_0
   - first:
-      213: -5346422617274557279
-    second: Golem_1_idle_1
+      213: 7145368577757440244
+    second: Golem_1_walk_1
   - first:
-      213: -4050087436769753263
-    second: Golem_1_idle_2
+      213: 3668113545366278642
+    second: Golem_1_walk_2
   - first:
-      213: -6050510017157607022
-    second: Golem_1_idle_3
+      213: 3560413011806008074
+    second: Golem_1_walk_3
   - first:
-      213: -3526272731087257150
-    second: Golem_1_idle_4
+      213: -1852207923889470867
+    second: Golem_1_walk_4
   - first:
-      213: -106065556061340719
-    second: Golem_1_idle_5
+      213: -7984011152290138843
+    second: Golem_1_walk_5
   - first:
-      213: 6968488508171074597
-    second: Golem_1_idle_6
+      213: -3132998592984035555
+    second: Golem_1_walk_6
   - first:
-      213: 7786588115404116445
-    second: Golem_1_idle_7
+      213: -7381214906031234670
+    second: Golem_1_walk_7
+  - first:
+      213: 1852743690599055226
+    second: Golem_1_walk_8
+  - first:
+      213: 1893436096413615750
+    second: Golem_1_walk_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -173,12 +179,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golem_1_idle_0
+      name: Golem_1_walk_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 28
         y: 0
-        width: 40
+        width: 33
         height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -188,19 +194,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a50fdbc45a288230800000000000000
-      internalID: 3641206842415056288
+      spriteID: 724b828660403d740800000000000000
+      internalID: 5175484822342644775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_idle_1
+      name: Golem_1_walk_1
       rect:
         serializedVersion: 2
-        x: 115
+        x: 118
         y: 0
-        width: 40
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8687a1dd2792360800000000000000
+      internalID: 7145368577757440244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f11b53c5d1c7e230800000000000000
+      internalID: 3668113545366278642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03306635c0296130800000000000000
+      internalID: 3560413011806008074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d628766e4b2ab46e0800000000000000
+      internalID: -1852207923889470867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 44
         height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -210,17 +304,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ac5c36c4f0bdc5b0800000000000000
-      internalID: -5346422617274557279
+      spriteID: 5253df87828133190800000000000000
+      internalID: -7984011152290138843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_idle_2
+      name: Golem_1_walk_6
       rect:
         serializedVersion: 2
-        x: 205
+        x: 566
         y: 0
         width: 40
         height: 38
@@ -232,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 157011e3fe23bc7c0800000000000000
-      internalID: -4050087436769753263
+      spriteID: d1f4367016a5584d0800000000000000
+      internalID: -3132998592984035555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_idle_3
+      name: Golem_1_walk_7
       rect:
         serializedVersion: 2
-        x: 295
+        x: 657
         y: 0
-        width: 40
-        height: 38
+        width: 38
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +348,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 291d0654235480ca0800000000000000
-      internalID: -6050510017157607022
+      spriteID: 291a03b7628a09990800000000000000
+      internalID: -7381214906031234670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_idle_4
+      name: Golem_1_walk_8
       rect:
         serializedVersion: 2
-        x: 385
+        x: 748
         y: 0
-        width: 41
-        height: 37
+        width: 35
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c1c56252a9201fc0800000000000000
-      internalID: -3526272731087257150
+      spriteID: a7fb002029446b910800000000000000
+      internalID: 1852743690599055226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golem_1_idle_5
+      name: Golem_1_walk_9
       rect:
         serializedVersion: 2
-        x: 475
+        x: 838
         y: 0
-        width: 41
-        height: 37
+        width: 34
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,52 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1db3f0050fd278ef0800000000000000
-      internalID: -106065556061340719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Golem_1_idle_6
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52cbde6a06b05b060800000000000000
-      internalID: 6968488508171074597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Golem_1_idle_7
-      rect:
-        serializedVersion: 2
-        x: 655
-        y: 0
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd1d0f6c2a48f0c60800000000000000
-      internalID: 7786588115404116445
+      spriteID: 686c2ab0916d64a10800000000000000
+      internalID: 1893436096413615750
       vertices: []
       indices: 
       edges: []
@@ -362,14 +412,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Golem_1_idle_0: 3641206842415056288
-      Golem_1_idle_1: -5346422617274557279
-      Golem_1_idle_2: -4050087436769753263
-      Golem_1_idle_3: -6050510017157607022
-      Golem_1_idle_4: -3526272731087257150
-      Golem_1_idle_5: -106065556061340719
-      Golem_1_idle_6: 6968488508171074597
-      Golem_1_idle_7: 7786588115404116445
+      Golem_1_walk_0: 5175484822342644775
+      Golem_1_walk_1: 7145368577757440244
+      Golem_1_walk_2: 3668113545366278642
+      Golem_1_walk_3: 3560413011806008074
+      Golem_1_walk_4: -1852207923889470867
+      Golem_1_walk_5: -7984011152290138843
+      Golem_1_walk_6: -3132998592984035555
+      Golem_1_walk_7: -7381214906031234670
+      Golem_1_walk_8: 1852743690599055226
+      Golem_1_walk_9: 1893436096413615750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
