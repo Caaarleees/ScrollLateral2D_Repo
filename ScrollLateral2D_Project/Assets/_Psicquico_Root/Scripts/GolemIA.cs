@@ -6,7 +6,7 @@ public class EnemigoIA : MonoBehaviour
     public float speed = 2f;            // Velocidad del enemigo
     public float detectionRange = 5f;   // Distancia para detectar al jugador
     public float attackRange = 1f;      // Distancia a la que ataca
-    public int damage = 1;              // Daï¿½o al jugador
+    public int damage = 1;              // Daño al jugador
     public float attackCooldown = 1f;   // Tiempo entre ataques
 
     private Transform player;
@@ -57,7 +57,8 @@ public class EnemigoIA : MonoBehaviour
         Vector2 direction = (player.position - transform.position).normalized;
         rb.linearVelocity = direction * speed;
 
-        // Girar sprite segï¿½n direcciï¿½n
+
+        // Girar sprite según dirección
         if (direction.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
         else
@@ -66,10 +67,10 @@ public class EnemigoIA : MonoBehaviour
 
     void Attack()
     {
-        // Activar animaciï¿½n de ataque
+        // Activar animación de ataque
         animator.SetTrigger("attack");
 
-        // Aplicar daï¿½o si sigue en rango
+        // Aplicar daño si sigue en rango
         if (Vector2.Distance(transform.position, player.position) <= attackRange)
         {
             player.GetComponent<PlayerHealth>().TakeDamage(damage);
@@ -78,13 +79,11 @@ public class EnemigoIA : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // Si quieres que el daño también ocurra al colisionar directamente
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Activar animaciÃ³n de ataque
-            animator.SetTrigger("attack");
-
-            // Aplicar daÃ±o
-            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(damage);
+            player.GetComponent<PlayerHealth>().TakeDamage(damage);
         }
     }
 }
+
