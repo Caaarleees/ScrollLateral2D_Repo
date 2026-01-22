@@ -8,9 +8,15 @@ public class EnemyFollow : MonoBehaviour
     //Velocidad de movimiento del enemigo
     public float speed = 3f;
 
-    //Velocidad de rotación
-    public float rotationSpeed = 5f;
+    private Animator animator;
+    private Rigidbody2D rb;
 
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
     void Update()
