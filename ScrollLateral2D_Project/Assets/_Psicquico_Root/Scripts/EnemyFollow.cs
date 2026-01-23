@@ -22,17 +22,29 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         //Comprobamos que el jugador exista
-        if (player != null)
+        if (player == null) return;
         {
 
-            //Dirección hacia el jugador
-            Vector3 direction = player.position - transform.position;
+            //Posiciï¿½n del enemigo
+            Vector3 position = transform.position;
 
-            //Movimiento del enemigo hacia el jugador
-            transform.position += direction.normalized * speed * Time.deltaTime;
+            //Comparamos la posiciï¿½n X del jugador con la del enemigo
+            if (player.position.x > position.x)
+            {
+                position.x += speed * Time.deltaTime;
+            }
+            else if (player.position.x < position.x)
+            {
+                position.x -= speed * Time.deltaTime;
+            }
+            //Aplicamos la nueva posiciï¿½n (Y y Z no cambian)
+            transform.position = position;
 
 
-             
+            //Animaciï¿½n
+            bool isMoving = rb.linearVelocity.magnitude > 0.1f;
+            animator.SetBool("isMoving", isMoving);
+
         }
     }
 }
